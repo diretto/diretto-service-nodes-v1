@@ -1,0 +1,42 @@
+{
+    "apiserver":{
+        "ip":"0.0.0.0",
+        "port":8001,
+        "uri":"http://localhost:8001/"
+    },
+    "mediaserver": {
+        "ip":"0.0.0.0",
+        "port":8000,
+    	"uri": "http://localhost:8000/",
+		"rootpath":"/srv/diretto/data",
+		   "upload" : 
+	    {
+	    	"maxsize": 1000000
+	    }
+    },    
+    "feedserver": {
+        "ip":"0.0.0.0",
+        "port":8002,
+    	"uri": "http://localhost:8002/",
+    	"templatepath" : "templates/",
+    	"hub": "http://hub.diretto.org:8888/"
+ 	    
+    },    
+    "deployment": {
+    	"title":"diretto Project Team Development",
+    	"website":"http://www.diretto.org",
+    	"contact":"n/a",
+    	"allownewusers" : true
+    },
+    
+    "security": {
+    	    "key": "bla"    
+    },
+    "couchdb": {
+        "host": "134.60.70.11",    
+        "port": 5984,    
+        "table": "users",
+ 	    "user":"",
+        "password":""
+    }      
+}

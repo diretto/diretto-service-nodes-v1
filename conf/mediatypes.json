@@ -1,0 +1,35 @@
+{
+	"mimetypes" : {
+		"image/jpeg":{
+			"extension":".jpg",
+			"maxsize" : 5242880,
+			"type" : "image"
+		},
+		"image/png":{
+			"extension":".png",
+			"maxsize" : 5242880,
+			"type" : "image"
+		},
+		"text/plain":{
+			"extension":".txt",
+			"maxsize" : 5242880,
+			"type" : "text"
+		}
+
+	},
+	"types" : {
+		"image" : {
+			"traits" : ["discrete","visual"]
+		},
+		"text" : {
+			"traits" : ["discrete","textual"]
+		},
+		"video" : {
+			"traits" : ["continuous","visual","audible"]
+		},
+		"audio" : {
+			"traits" : ["continuous","audible"]
+		}
+	},
+	"traits" : ["discrete","continuous","textual","visual","audible"]
+}
