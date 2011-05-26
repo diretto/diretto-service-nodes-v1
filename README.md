@@ -1,3 +1,5 @@
+# PLEASE NOTE: This is a discontinued experimental release. A new version will be available soon.
+
 # diretto-service-nodes
 
 A node.js-based implementation of the diretto platform services. 
