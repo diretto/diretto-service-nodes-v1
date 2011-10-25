@@ -1,4 +1,4 @@
-# PLEASE NOTE: This is a discontinued experimental release. A new version will be available soon.
+# PLEASE NOTE: New version available: https://github.com/diretto/diretto-main-services
 
 # diretto-service-nodes
 
